@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=NO">
+<title>${title}</title>
+    <style type="text/css">
+        *{padding:0px; margin:0px;font-size:14px;font-family:Arial,Verdana,Tahoma,'宋体'}
+        body{width:100%; height:auto;background:transparent;}
+        h1,h2,h3,h4{font-weight:bold;}
+        h1{font-size:20px;}
+        h1 a{font-size:20px !important;}
+        h2{font-size:18px;}
+        h3{font-size:16px;}
+        h4{font-size:14px;}
+        video,iframe{display:block;width:100% !important;height:auto !important;}
+        table,th,td{font-size:inherit !important;line-height:inherit !important;border:1px solid black;border-collapse:collapse;}
+        a{text-decoration:none;-webkit-touch-callout:none;}
+        p{margin:0px 0px 1.5em 0px;}
+        ul{list-style:none;}
+        ul,ol{padding:0 0 0 32px;}
+        input,select,button{vertical-align:middle;}
+        blockquote{padding-left:1.5em;padding-right:0.5em;border:0px solid #ccc;font-style:italic;border-left-width:4px;color:#aaa;}
+        img{visibility:hidden;}
+        img.em{display:inline !important;width:auto !important;height:auto !important;}
+        .main{padding:1em;}
+        .title{text-align:center;}
+        .content{word-break:break-word;}
+        .content p{line-height:1.2em;}
+        .info{background-color:#eee;font-size:14px;color:#aaa;border-radius: 4px;text-align:center;padding:0.2em 0;margin-bottom:1.5em;}
+        .infolist{font-size:16px;margin-bottom:1.5em;}
+        .infolist label{display:inline;width:80px;height:auto;text-align:right;font-weight:bold;margin-bottom:1.5em;}
+        .content section {
+            margin-bottom : 1.5em;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+	<div class="title">
+		<h1>${title}</h1>
+	</div>
+	<div class="info">${zphrq} ${zphsjs}</div>
+	<div class="content">
+        <dd><b>地点：</b>${zphcdmc}</dd>
+        <dd><b>备注：</b>${bz}</dd>
+        <dd><b>链接：</b>${zpnet}</dd>
+        <dd><b>招聘说明：</b></dd>
+        <p>${zpms}</p>
+        
+        <h3>用人单位简介</h3><hr />
+        <dd><b>单位行业：</b>${hylbname}</dd>
+        <dd><b>单位规模：</b>${gsgmname}</dd>
+        <dd><b>单位类型：</b>${dwxzname}</dd>
+        <dd><b>单位简介：</b></dd>
+        <p>${dwjj}</p>
+        
+        <h3>联系方式</h3><hr />
+        <dd><b>联系人：</b>${lxr}</dd>
+        <dd><b>电话：</b>${lxdh}</dd>
+        <dd><b>邮箱：</b>${pemail}</dd>
+        <dd><b>单位电话：</b>${dwdh}</dd>
+        <dd><b>主页：</b>${web}</dd>
+        <dd><b>传真：</b>${cz}</dd>
+        <dd><b>单位邮箱：</b>${email}</dd>
+        <dd><b>地址：</b>${dz}</dd>
+        <dd><b>邮编：</b>${yb}</dd>
+	</div>
+</div>
+<!--script language="javascript" type="text/javascript" src="http://news.izju.org/common/mobile.js"></script-->
+</body></html>
